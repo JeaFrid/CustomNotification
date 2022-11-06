@@ -1,0 +1,190 @@
+{
+    "name": "ByBugProject",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "<your name>",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": ["id"],
+    "components": [
+        {
+            "id": "darkVertical_{id}",
+            "type": "VerticalArrangement",
+            "properties": {
+                "AlignHorizontal": 3,
+                "AlignVertical": 2,
+                "BackgroundColor": 3372286209,
+                "Height": -2,
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id": "Notification_{id}",
+                    "type": "HorizontalArrangement",
+                    "properties": {
+                        "AlignHorizontal": 3,
+                        "AlignVertical": 2,
+                        "BackgroundColor": 4294967295,
+                        "Width": -1080,
+                        "isCard": true
+                    },
+                    "components": [
+                        {
+                            "id": "Space3_copy_copy_copy_{id}",
+                            "type": "SpaceView",
+                            "properties": {
+                                "Width": -1002
+                            }
+                        },
+                        {
+                            "id": "Vertical_Arrangement3_{id}",
+                            "type": "VerticalArrangement",
+                            "properties": {
+                                "AlignHorizontal": 3,
+                                "AlignVertical": 2,
+                                "BackgroundColor": 16777215,
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Title_{id}",
+                                    "type": "Label",
+                                    "properties": {
+                                        "FontBold": true,
+                                        "FontSize": 16,
+                                        "Width": -2,
+                                        "Text": "Bu bir ba\u015fl\u0131k"
+                                    }
+                                },
+                                {
+                                    "id": "Space2_copy1_{id}",
+                                    "type": "SpaceView",
+                                    "properties": {
+                                        "Height": -1001
+                                    }
+                                },
+                                {
+                                    "id": "Subtitle_{id}",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "CV\u2019s"
+                                    }
+                                },
+                                {
+                                    "id": "Space2_{id}",
+                                    "type": "SpaceView",
+                                    "properties": {
+                                        "Height": 2
+                                    }
+                                },
+                                {
+                                    "id": "Link_{id}",
+                                    "type": "Label",
+                                    "properties": {
+                                        "FontItalic": true,
+										"Clickable": true,
+                                        "Width": -2,
+                                        "Text": "https://bybug.net",
+                                        "TextColor": 4294248560
+                                    }
+                                },
+                                {
+                                    "id": "Space2_copy3_{id}",
+                                    "type": "SpaceView",
+                                    "properties": {
+                                        "Height": -1002
+                                    }
+                                },
+                                {
+                                    "id": "Horizontal_Arrangement1_{id}",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignHorizontal": 3,
+                                        "AlignVertical": 2,
+                                        "BackgroundColor": 16777215,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Space1_copy_copy_{id}",
+                                            "type": "SpaceView",
+                                            "properties": {
+                                                "Width": -1002
+                                            }
+                                        },
+                                        {
+                                            "id": "Button1_{id}",
+                                            "type": "Label",
+                                            "properties": {
+                                                "FontBold": true,
+												"Clickable": true,
+												"Visible": true,
+                                                "Text": "Kapat"
+                                            }
+                                        },
+                                        {
+                                            "id": "Space1_{id}",
+                                            "type": "SpaceView",
+                                            "properties": {
+                                                "Width": -2
+                                            }
+                                        },
+                                        {
+                                            "id": "Button2_{id}",
+                                            "type": "Label",
+                                            "properties": {
+                                                "FontBold": true,
+												"Visible": true,
+                                                "Text": "Tekrar dene"
+                                            }
+                                        },
+                                        {
+                                            "id": "Space1_copy_copy1_{id}",
+                                            "type": "SpaceView",
+                                            "properties": {
+                                                "Width": -1002
+                                            }
+                                        },
+                                        {
+                                            "id": "Button3_{id}",
+                                            "type": "Label",
+                                            "properties": {
+                                                "FontBold": true,
+												"Visible": true,
+                                                "Text": "Tamam"
+                                            }
+                                        },
+                                        {
+                                            "id": "Space1_copy_{id}",
+                                            "type": "SpaceView",
+                                            "properties": {
+                                                "Width": -1002
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Space2_copy3_copy_{id}",
+                                    "type": "SpaceView",
+                                    "properties": {
+                                        "Height": -1002
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Space3_copy_copy_copy1_{id}",
+                            "type": "SpaceView",
+                            "properties": {
+                                "Width": -1002
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
